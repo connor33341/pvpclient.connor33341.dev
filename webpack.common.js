@@ -39,6 +39,7 @@ const config = {
       https: require.resolve('https-browserify'),
       timers: require.resolve('timers-browserify'),
       canvas: require.resolve("canvas"),
+      vm: require.resolve("vm-browserify"),
       // fs: require.resolve("fs-memory/singleton"),
       child_process: false,
       tls: false,
